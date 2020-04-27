@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="liZ-hy-rn0">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Battle-->
+        <scene sceneID="gU7-YF-Myf">
+            <objects>
+                <viewController storyboardIdentifier="DynamicTableController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="liZ-hy-rn0" customClass="DynamicTableViewController" customModule="TableViewOverview" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BwD-K2-lsd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jnq-fG-lTJ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="mqz-Sb-Ecc" customClass="CharacterInfoHeader" customModule="TableViewOverview" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="98"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </view>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jnq-fG-lTJ" firstAttribute="leading" secondItem="bqo-2X-lat" secondAttribute="leading" id="CKM-ER-U4i"/>
+                            <constraint firstItem="jnq-fG-lTJ" firstAttribute="top" secondItem="bqo-2X-lat" secondAttribute="top" id="WwR-qR-BAU"/>
+                            <constraint firstItem="bqo-2X-lat" firstAttribute="trailing" secondItem="jnq-fG-lTJ" secondAttribute="trailing" id="dCV-Bn-U6L"/>
+                            <constraint firstAttribute="bottom" secondItem="jnq-fG-lTJ" secondAttribute="bottom" id="dGF-5o-r5G"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bqo-2X-lat"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Battle" id="mtK-tF-Olj">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="DfT-w9-6jU">
+                            <connections>
+                                <action selector="addNewWeapon:" destination="liZ-hy-rn0" id="hk1-Hp-gLP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="table" destination="jnq-fG-lTJ" id="VtK-10-DAE"/>
+                        <outlet property="tableHeader" destination="mqz-Sb-Ecc" id="16l-lu-hPo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PYb-CA-7ts" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653.62318840579712" y="-106.47321428571428"/>
+        </scene>
+    </scenes>
+</document>

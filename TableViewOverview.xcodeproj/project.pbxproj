@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		DA33FF1C245613450084B9BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33FF1B245613450084B9BE /* AppDelegate.swift */; };
 		DA33FF1E245613450084B9BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33FF1D245613450084B9BE /* SceneDelegate.swift */; };
-		DA33FF20245613450084B9BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33FF1F245613450084B9BE /* ViewController.swift */; };
-		DA33FF23245613450084B9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA33FF21245613450084B9BE /* Main.storyboard */; };
 		DA33FF25245613460084B9BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA33FF24245613460084B9BE /* Assets.xcassets */; };
 		DA33FF28245613460084B9BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA33FF26245613460084B9BE /* LaunchScreen.storyboard */; };
+		DA33FF32245618F40084B9BE /* DynamicTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA33FF31245618F40084B9BE /* DynamicTable.storyboard */; };
+		DA33FF3424561AA30084B9BE /* CharacterInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33FF3324561AA30084B9BE /* CharacterInfoHeader.swift */; };
+		DA33FF3624561B710084B9BE /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33FF3524561B710084B9BE /* Character.swift */; };
+		DA33FF3824561E420084B9BE /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33FF3724561E420084B9BE /* Weapon.swift */; };
+		DA33FF3A24561E920084B9BE /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33FF3924561E920084B9BE /* Dice.swift */; };
+		DA33FF3D24561F0F0084B9BE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33FF3C24561F0F0084B9BE /* Item.swift */; };
+		DA33FF3F2456222A0084B9BE /* WeaponTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33FF3E2456222A0084B9BE /* WeaponTableViewCell.swift */; };
+		DA33FF46245623190084B9BE /* WeaponTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA33FF45245623190084B9BE /* WeaponTableViewCell.xib */; };
+		DA33FF48245624870084B9BE /* DynamicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33FF47245624870084B9BE /* DynamicTableViewController.swift */; };
+		DA33FF4A24562C820084B9BE /* WeaponsSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33FF4924562C820084B9BE /* WeaponsSectionHeader.swift */; };
+		DA33FF4C24562C8E0084B9BE /* WeaponsSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA33FF4B24562C8E0084B9BE /* WeaponsSectionHeader.xib */; };
+		DA33FF502456320E0084B9BE /* CharacterInfoHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA33FF4F2456320E0084B9BE /* CharacterInfoHeader.xib */; };
+		DA33FF8A24564C9D0084B9BE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33FF8924564C9D0084B9BE /* Router.swift */; };
+		DA33FF8C24564D0E0084B9BE /* StaticTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA33FF8B24564D0E0084B9BE /* StaticTable.storyboard */; };
+		DA33FF9224565F3A0084B9BE /* StaticTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33FF9124565F3A0084B9BE /* StaticTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA33FF18245613450084B9BE /* TableViewOverview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewOverview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA33FF1B245613450084B9BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA33FF1D245613450084B9BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA33FF1F245613450084B9BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA33FF22245613450084B9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA33FF24245613460084B9BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA33FF27245613460084B9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA33FF29245613460084B9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA33FF31245618F40084B9BE /* DynamicTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DynamicTable.storyboard; sourceTree = "<group>"; };
+		DA33FF3324561AA30084B9BE /* CharacterInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterInfoHeader.swift; sourceTree = "<group>"; };
+		DA33FF3524561B710084B9BE /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		DA33FF3724561E420084B9BE /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		DA33FF3924561E920084B9BE /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		DA33FF3C24561F0F0084B9BE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DA33FF3E2456222A0084B9BE /* WeaponTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponTableViewCell.swift; sourceTree = "<group>"; };
+		DA33FF45245623190084B9BE /* WeaponTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeaponTableViewCell.xib; sourceTree = "<group>"; };
+		DA33FF47245624870084B9BE /* DynamicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewController.swift; sourceTree = "<group>"; };
+		DA33FF4924562C820084B9BE /* WeaponsSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsSectionHeader.swift; sourceTree = "<group>"; };
+		DA33FF4B24562C8E0084B9BE /* WeaponsSectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeaponsSectionHeader.xib; sourceTree = "<group>"; };
+		DA33FF4F2456320E0084B9BE /* CharacterInfoHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterInfoHeader.xib; sourceTree = "<group>"; };
+		DA33FF8924564C9D0084B9BE /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		DA33FF8B24564D0E0084B9BE /* StaticTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StaticTable.storyboard; sourceTree = "<group>"; };
+		DA33FF9124565F3A0084B9BE /* StaticTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,68 @@
 		DA33FF1A245613450084B9BE /* TableViewOverview */ = {
 			isa = PBXGroup;
 			children = (
-				DA33FF1B245613450084B9BE /* AppDelegate.swift */,
-				DA33FF1D245613450084B9BE /* SceneDelegate.swift */,
-				DA33FF1F245613450084B9BE /* ViewController.swift */,
-				DA33FF21245613450084B9BE /* Main.storyboard */,
+				DA33FF8824564C940084B9BE /* Shared */,
+				DA33FF302456135E0084B9BE /* Dynamic Table */,
+				DA33FF2F245613520084B9BE /* Static Table */,
 				DA33FF24245613460084B9BE /* Assets.xcassets */,
 				DA33FF26245613460084B9BE /* LaunchScreen.storyboard */,
 				DA33FF29245613460084B9BE /* Info.plist */,
 			);
 			path = TableViewOverview;
+			sourceTree = "<group>";
+		};
+		DA33FF2F245613520084B9BE /* Static Table */ = {
+			isa = PBXGroup;
+			children = (
+				DA33FF8B24564D0E0084B9BE /* StaticTable.storyboard */,
+				DA33FF9124565F3A0084B9BE /* StaticTableViewController.swift */,
+			);
+			path = "Static Table";
+			sourceTree = "<group>";
+		};
+		DA33FF302456135E0084B9BE /* Dynamic Table */ = {
+			isa = PBXGroup;
+			children = (
+				DA33FF402456222F0084B9BE /* Views */,
+				DA33FF3B24561EB70084B9BE /* Models */,
+				DA33FF31245618F40084B9BE /* DynamicTable.storyboard */,
+				DA33FF47245624870084B9BE /* DynamicTableViewController.swift */,
+			);
+			path = "Dynamic Table";
+			sourceTree = "<group>";
+		};
+		DA33FF3B24561EB70084B9BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA33FF3524561B710084B9BE /* Character.swift */,
+				DA33FF3724561E420084B9BE /* Weapon.swift */,
+				DA33FF3924561E920084B9BE /* Dice.swift */,
+				DA33FF3C24561F0F0084B9BE /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA33FF402456222F0084B9BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA33FF3324561AA30084B9BE /* CharacterInfoHeader.swift */,
+				DA33FF4F2456320E0084B9BE /* CharacterInfoHeader.xib */,
+				DA33FF3E2456222A0084B9BE /* WeaponTableViewCell.swift */,
+				DA33FF45245623190084B9BE /* WeaponTableViewCell.xib */,
+				DA33FF4924562C820084B9BE /* WeaponsSectionHeader.swift */,
+				DA33FF4B24562C8E0084B9BE /* WeaponsSectionHeader.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA33FF8824564C940084B9BE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DA33FF1B245613450084B9BE /* AppDelegate.swift */,
+				DA33FF1D245613450084B9BE /* SceneDelegate.swift */,
+				DA33FF8924564C9D0084B9BE /* Router.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +204,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA33FF8C24564D0E0084B9BE /* StaticTable.storyboard in Resources */,
 				DA33FF28245613460084B9BE /* LaunchScreen.storyboard in Resources */,
 				DA33FF25245613460084B9BE /* Assets.xcassets in Resources */,
-				DA33FF23245613450084B9BE /* Main.storyboard in Resources */,
+				DA33FF502456320E0084B9BE /* CharacterInfoHeader.xib in Resources */,
+				DA33FF46245623190084B9BE /* WeaponTableViewCell.xib in Resources */,
+				DA33FF4C24562C8E0084B9BE /* WeaponsSectionHeader.xib in Resources */,
+				DA33FF32245618F40084B9BE /* DynamicTable.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +221,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA33FF20245613450084B9BE /* ViewController.swift in Sources */,
+				DA33FF8A24564C9D0084B9BE /* Router.swift in Sources */,
+				DA33FF9224565F3A0084B9BE /* StaticTableViewController.swift in Sources */,
+				DA33FF3A24561E920084B9BE /* Dice.swift in Sources */,
+				DA33FF3F2456222A0084B9BE /* WeaponTableViewCell.swift in Sources */,
 				DA33FF1C245613450084B9BE /* AppDelegate.swift in Sources */,
+				DA33FF48245624870084B9BE /* DynamicTableViewController.swift in Sources */,
+				DA33FF3624561B710084B9BE /* Character.swift in Sources */,
+				DA33FF3D24561F0F0084B9BE /* Item.swift in Sources */,
+				DA33FF3424561AA30084B9BE /* CharacterInfoHeader.swift in Sources */,
+				DA33FF4A24562C820084B9BE /* WeaponsSectionHeader.swift in Sources */,
 				DA33FF1E245613450084B9BE /* SceneDelegate.swift in Sources */,
+				DA33FF3824561E420084B9BE /* Weapon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DA33FF21245613450084B9BE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA33FF22245613450084B9BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DA33FF26245613460084B9BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
